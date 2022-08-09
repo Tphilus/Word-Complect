@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: sans-serif;
     margin: 0px;
@@ -17,8 +20,22 @@ body {
     width: 100%;
     padding: 10px;
     background-color: darkblue;
-    text-align: center;
+    text-align: center;cls
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin-bottom: 0px;
+}
+
+#txtArea {
+    width: 100%;
+    height: 350px;
+    padding: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    resize: none;
+    border: none;
+    outline: none;
 }
